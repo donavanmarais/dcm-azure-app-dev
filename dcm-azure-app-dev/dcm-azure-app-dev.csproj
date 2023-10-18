@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>dcm_azure_app_dev</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/72d75be8-2bc1-43a8-9977-6093731440da/resourceGroups/az-group-rg/providers/microsoft.insights/components/dcm-azure-app-dev</ApplicationInsightsResourceId>
+    <UserSecretsId>6eef30f0-2f32-4c57-85a5-fd2c63c72035</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
